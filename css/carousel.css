@@ -1,0 +1,177 @@
+
+@charset "UTF-8";
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+body {
+  background-color: #F4F4F4
+}
+/*
+a {
+  color: #0080FF;
+  text-decoration: none;
+}
+a:hover {
+  color: #324FC0;
+}*/
+
+
+.slider {
+  margin: 0;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.slider img {
+  width: 100%;
+  height: auto!important;
+}
+.single-item {
+  max-width: 600px;
+  margin: 0 auto 50px;
+}
+.center-item {
+  max-width: 100%;
+  margin: 0;
+}
+.center-item img{
+  width: 100%;
+  height: auto!important;
+}
+.slick-prev::before, .slick-next::before {
+  font-size: 32px;
+  color: black;
+}
+.lazy-item .slick-next,
+.thumb-item-nav .slick-next,
+.multiple-item .slick-next,
+.center-item .slick-next {
+  right: 18px;
+  z-index: 10;
+}
+.lazy-item .slick-prev,
+.thumb-item-nav .slick-prev,
+.multiple-item .slick-prev,
+.center-item .slick-prev {
+  left: 8px;
+  z-index: 10;
+}
+.single-item .slick-prev::before,
+.single-item .slick-next::before,
+.center-item .slick-next::before {
+  color: #666;
+}
+.slick-dotted.slick-slider
+{
+    margin-bottom: 0px;
+}
+.slick-dots {
+  bottom: 8px;
+}
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.multiple-item li {
+  margin: 0 5px;
+}
+.thumb-item {
+  max-width: 700px;
+  margin: 0 auto 5px;
+  padding: 0 5px;
+}
+.thumb-item-nav {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.thumb-item-nav li{
+  margin: 5px;
+}
+.lazy-item {
+  width: 400px;
+  margin: 0 auto 50px;
+}
+.lazy-item li {
+  margin: 0 5px;
+}
+
+
+
+.slick-prev
+{
+    left: -25px;
+}
+[dir='rtl'] .slick-prev
+{
+    right: -25px;
+    left: auto;
+}
+.slick-prev:before
+{
+  font-family: uniqlo-icons;
+  content: "\e925";
+}
+[dir='rtl'] .slick-prev:before
+{
+  font-family: uniqlo-icons;
+  content: "\e925";
+}
+
+.slick-next
+{
+    right: -25px;
+}
+[dir='rtl'] .slick-next
+{
+    right: auto;
+    left: -25px;
+}
+.slick-next:before
+{
+  font-family: uniqlo-icons;
+  content: "\e924";
+}
+[dir='rtl'] .slick-next:before
+{
+  font-family: uniqlo-icons;
+  content: "\e924";
+}
