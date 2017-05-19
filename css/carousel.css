@@ -92,6 +92,7 @@ a:hover {
 }
 .single-item .slick-prev::before,
 .single-item .slick-next::before,
+.center-item .slick-prev::before,
 .center-item .slick-next::before {
   color: #666;
 }
