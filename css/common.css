@@ -342,7 +342,18 @@ div.product-images {
   width: auto;
 }
 
-.modalClose {
+.modalCloseIconWrap {
+  /*position: absolute;
+  z-index: 10;
+  top: 24px;
+  right: 16px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);*/
+}
+
+.modalCloseIcon {
   overflow: hidden;
   position: absolute;
   z-index: 1;
@@ -350,12 +361,10 @@ div.product-images {
   right: 16px;
   width: 26px;
   height: 26px;
-  border-radius: 50%;
   cursor: pointer;
-  /*background: #F3F3F3;*/
 }
 
-.modalClose:after {
+.modalCloseIcon:after {
   font-family: 'uniqlo-icons';
   font-size: 24px;
   content: "\e928";
